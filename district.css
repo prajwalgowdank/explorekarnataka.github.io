@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300;1,400;1,500;1,600;1,900&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:ital,wght@1,200;1,300;1,400;1,500;1,600;1,900&display=swap'); */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style-type:none;
+    text-decoration:none;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height:80px;
+    width:100%;
+    background: #454545;
+    padding:10px 0 10px 50px;
+}
+
+nav img{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+}
+
+nav ul{
+    margin-right: 200px;
+}
+
+nav ul li{
+    display:inline-block;
+    padding:0 20px;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: 500;
+    font-size:18px;
+}
+
+nav .menu{
+    color:white;
+    font-size: 20px;
+    margin-right:50px;
+    display: none;
+}
+
+nav .close{
+    color:white;
+    font-size: 20px;
+    margin-right:40px;
+}
+
+.sidemenu{
+    /* align-items: center; */
+    display:inline-block;
+    text-align: center;
+    right:0;
+    position: absolute;
+    background: red;
+    width: 100%;
+    border-radius: 10px;
+    /* height: 100vh; */
+    display: none;
+    transition: all 0.5s;
+}
+
+.sidemenu li{
+    padding: 10px 10px;
+
+}
+
+.sidemenu li a{
+    font-size: 18px;
+    color: black;
+    padding:10px 30px;
+    transition:0.5s;
+
+}
+
+.sidemenu li a:hover{
+    background: black;
+    border-radius: 30px;
+    color: white;
+}
+
+
+/* --------------responsive nav bar-------------------------------------------- */
+
+
+
+
+/* --------------------------------------total district list----------------------------------- */
+#grid{
+    width: 100%;
+}
+
+#grid input{
+    width: 50%;
+    left:25%;
+    text-align: center;
+    margin:50px 25% 0px 25%;
+    font-size: 30px;
+    border: none;
+    border-bottom: 2px solid red;
+    outline: none;
+    color: blue;
+}
+.gallery_heading{
+    font-size: 40px;
+    margin:40px 0  -10px 125px;
+    color:red;
+}
+.columns{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    grid-gap:20px;
+    margin-top:20px;
+    padding:2% 8%;
+}
+  
+.row{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+  
+.row h2{
+    font-size: 25px;
+    color:white;
+    text-align: center;
+    top:85%;
+    padding: 0 0 0 20px;
+    position: absolute;
+    left: 0;
+}
+  
+.row .img{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/hampi.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+  
+.row .img:hover{
+    transform: scale(1.1);
+}
+  
+
+
+
+
+
+@media only screen and (max-width:600px){
+    nav .menu{
+        display: block;
+    }
+    nav{
+        padding:10px 0 10px 20px;
+    }
+    nav ul{
+        display: none;
+    }
+    nav .menu{
+        margin-right:30px;
+    }
+    .gallery_heading{
+        font-size: 35px;
+        margin-left: 40px;
+    }
+    #grid input{
+        width:90%;
+        margin:50px 0 0px 4%;
+        font-size: 25px;
+
+    }
+}
+
+@media only screen and (max-width:400px){
+    .gallery_heading{
+        font-size: 30px;
+        margin-left: 28px;
+    }
+    #grid input{
+        width:90%;
+        margin:50px 0 0px 4%;
+        font-size: 20px;
+
+    }
+}
+
+ 
