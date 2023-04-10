@@ -88,7 +88,7 @@ nav .close{
 }
 
 
-/* --------------responsive nav bar-------------------------------------------- */
+
 
 
 
@@ -139,7 +139,278 @@ nav .close{
 }
   
 .row .img{
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/hampi.jpg);
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/bagalkote.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img2{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/bengaluru\ urban.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img3{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/bengaluru\ rural.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img4{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/belagaavi.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img5{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/Bellary.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img6{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/bidar.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img7{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/Chamarajnagar.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img8{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/chikkaballapir.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+
+.row .img9{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/chikkamagaluru.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img10{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/Cgitradurga.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img11{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/Dakshina\ kannada.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img12{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/davanagere.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img13{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/Drarwad.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img14{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/Gadag.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img15{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/kalaburgi.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img16{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/Hassan.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img17{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/Havereri.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img18{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/kodagu.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img19{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/kolar.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img20{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/Koppal.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img21{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/mandya.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img22{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/Mysore.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img23{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/Raichur_Fort_1.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img24{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/ramanagara.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img25{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/Shivamogga.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img26{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/Thumakuru.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img27{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/udupi.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img28{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/Uttar\ kanna.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img29{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/Vijaynagar.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img30{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/Vijayapura.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+}
+
+.row .img31{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/Yadgiri.jpeg);
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -155,7 +426,7 @@ nav .close{
 
 
 
-
+/* --------------responsive nav bar-------------------------------------------- */
 @media only screen and (max-width:600px){
     nav .menu{
         display: block;

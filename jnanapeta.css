@@ -81,22 +81,6 @@ nav .close{
     color: white;
 }
 
-/* --------------responsive nav bar-------------------------------------------- */
-
-@media only screen and (max-width:600px){
-    nav .menu{
-        display: block;
-    }
-    nav{
-        padding:10px 0 10px 20px;
-    }
-    nav ul{
-        display: none;
-    }
-    nav .menu{
-        margin-right:30px;
-    }
-}
 
 
 #list{
@@ -105,6 +89,18 @@ nav .close{
     /* height: 100vh; */
 }
 
+.back{
+    font-size: 25px; 
+    padding:30px 0 0 20px;
+}
+.back a{
+    border-radius: 50%;
+    background: rgb(108, 53, 53);
+}
+.back i{
+    color: red;
+    padding: 5px;   
+}
 .list{
     display: flex;
     align-items: start;
@@ -119,7 +115,7 @@ nav .close{
 }
 
 .award-name{
-    font-size:25px;
+    font-size:20px;
     text-transform: uppercase;
     letter-spacing: 2.5px;
     padding: 20px 0;
@@ -129,6 +125,10 @@ nav .close{
     margin:120px 50px 0 50px;
     /* border: 1px solid black; */
     flex-basis: 60%;
+}
+
+.award_description p{
+    color: black;
 }
 .award_photo img{
     width: 300px;
@@ -145,6 +145,14 @@ span{
     font-size:25px;
     color: red;
     font-weight: 700;
+}
+.color{
+    color:blue;
+    font-size: 30px;
+}
+.bold{
+    font-weight:600;
+    color:black;
 }
 
 /* ------------------------------------------responsive---------------------------- */
@@ -178,6 +186,23 @@ span{
         padding: 30px 0 5px 0;
     }
     
+}
+
+/* --------------responsive nav bar-------------------------------------------- */
+
+@media only screen and (max-width:600px){
+    nav .menu{
+        display: block;
+    }
+    nav{
+        padding:10px 0 10px 20px;
+    }
+    nav ul{
+        display: none;
+    }
+    nav .menu{
+        margin-right:30px;
+    }
 }
 
 
@@ -222,7 +247,7 @@ span{
 
     .award_photo img{
         width: 300px;
-        height: 380px;
+        height: 350px;
     }
 
     .award_description{

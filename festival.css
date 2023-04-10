@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300;1,400;1,500;1,600;1,900&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:ital,wght@1,200;1,300;1,400;1,500;1,600;1,900&display=swap'); */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style-type:none;
+    text-decoration:none;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height:80px;
+    width:100%;
+    background: #454545;
+    padding:10px 0 10px 50px;
+}
+
+nav img{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+}
+
+nav ul{
+    margin-right: 200px;
+}
+
+nav ul li{
+    display:inline-block;
+    padding:0 20px;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: 500;
+    font-size:18px;
+}
+
+nav .menu{
+    color:white;
+    font-size: 20px;
+    margin-right:50px;
+    display: none;
+}
+
+nav .close{
+    color:white;
+    font-size: 20px;
+    margin-right:40px;
+}
+
+.sidemenu{
+    /* align-items: center; */
+    display:inline-block;
+    text-align: center;
+    right:0;
+    position: absolute;
+    background: red;
+    width: 100%;
+    border-radius: 10px;
+    /* height: 100vh; */
+    display: none;
+    transition: all 0.5s;
+}
+
+.sidemenu li{
+    padding: 10px 10px;
+
+}
+
+.sidemenu li a{
+    font-size: 18px;
+    color: black;
+    padding:10px 30px;
+    transition:0.5s;
+
+}
+
+.sidemenu li a:hover{
+    background: black;
+    border-radius: 30px;
+    color: white;
+}
+
+/* ----------------------------------festival list----------------------------------- */
+.festival{
+    text-align: center;
+    font-size:60px;
+    padding:30px 0;
+    color:rgb(155, 155, 13);
+}
+
+.festival-description{
+    font-size: 17px;
+    padding:0 5%;
+}
+
+.columns{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-gap:50px;
+    margin-top:20px;
+    padding:2% 3%;
+  }
+  
+  .row{
+    position: relative;
+    overflow: hidden;
+    box-shadow:10px 10px 8px 0  #888585;
+  }
+  
+  .row h2{
+    font-size: 35px;
+    color:white;
+    text-align: center;
+    top:50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .row .img{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(district/festivals/Bengaluru-Karaga.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:transform 0.9s ;
+  }
+  
+  .row .img:hover{
+    transform: scale(1.1);
+  
+  }
+  
+  .row .img2{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(district/festivals/diwali.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .row .img3{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(district/festivals/ganesha.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .row .img4{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)), url(district/festivals/hampi-festival.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .row .img5{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(district/festivals/mysore-dasara.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .row .img6{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)), url(district/festivals/ugadi.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }  
+
+/* --------------responsive nav bar-------------------------------------------- */
+
+@media only screen and (max-width:600px){
+    nav .menu{
+        display: block;
+    }
+    nav{
+        padding:10px 0 10px 20px;
+    }
+    nav ul{
+        display: none;
+    }
+    nav .menu{
+        margin-right:30px;
+    }
+}
+
+
+
+
